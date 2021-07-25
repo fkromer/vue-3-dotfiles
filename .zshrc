@@ -14,6 +14,15 @@ COMPLETION_WAITING_DOTS="false"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="yyyy-mm-dd"
 
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ag
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fzf
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ionic
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npm
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/yarn
 plugins=(ag fzf git ionic npm yarn)
+
+export DISABLE_FZF_AUTO_COMPLETION="false"
+export DISABLE_FZF_KEY_BINDINGS="false"
 
 source $ZSH/oh-my-zsh.sh
