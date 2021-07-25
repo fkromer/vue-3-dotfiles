@@ -14,6 +14,6 @@ COMPLETION_WAITING_DOTS="false"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="yyyy-mm-dd"
 
-plugins=(fzf git)
+plugins=(ag fzf git ionic npm yarn)
 
 source $ZSH/oh-my-zsh.sh
